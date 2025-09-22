@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="theme-color" content="#0b0b0c"/>
+  <meta name="description" content="Контакты Lair World Music — Telegram, соцсети и форма связи."/>
+  <title>Lair World Music — Контакты</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/img/lwm.png"/>
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/lwm.png"/>
+  <link rel="stylesheet" href="assets/css/styles.css"/>
+</head>
+<body class="is-loading">
+  <div class="page-transition" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo" data-transition>Lair<span>World</span>Music</a>
+      <nav class="nav" id="site-nav">
+        <a href="index.html" class="nav-link" data-transition>Главная</a>
+        <a href="about.html" class="nav-link" data-transition>О нас</a>
+        <a href="news.html" class="nav-link" data-transition>Новости</a>
+        <a href="contact.html" class="nav-link active" data-transition>Контакты</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Меню" aria-controls="site-nav" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1 class="reveal">Контакты</h1>
+        <p class="muted reveal">Свяжитесь с нами удобным способом</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <div class="contact-card reveal">
+          <h3>Контактная информация</h3>
+          <ul class="contact-list">
+            <li><i class="ri-telegram-line"></i> Telegram: <a href="https://t.me/veryxz" target="_blank" rel="noopener">@veryxz</a></li>
+            <li><i class="ri-instagram-line"></i> Instagram: <a href="https://www.instagram.com/lxirmusic/" target="_blank" rel="noopener">lxirmusic</a></li>
+            <li><i class="ri-robot-line"></i> Бот для связи: <a href="https://t.me/LairMusicRec_bot" target="_blank" rel="noopener">/report описание</a></li>
+            <li><i class="ri-user-add-line"></i> Присоединиться: <a href="https://t.me/lwmjoin_bot" target="_blank" rel="noopener">Join Us</a></li>
+          </ul>
+          <div class="contact-note muted">
+            Мы стараемся отвечать оперативно. Если вопрос срочный — пишите в Telegram.
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contact-form" novalidate>
+          <h3>Написать нам</h3>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name">Имя</label>
+              <input id="name" name="name" type="text" placeholder="Ваше имя" required/>
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" required/>
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="subject">Тема</label>
+            <input id="subject" name="subject" type="text" placeholder="Тема сообщения" required/>
+          </div>
+          <div class="form-field">
+            <label for="message">Сообщение</label>
+            <textarea id="message" name="message" rows="5" placeholder="Опишите задачу или идею" required></textarea>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="btn">Отправить</button>
+            <span class="form-status" id="form-status" aria-live="polite"></span>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container cta-inner">
+        <div class="cta-text reveal">
+          <h3>Предложить проект или коллаб?</h3>
+          <p class="muted">Мы открыты к сотрудничеству.</p>
+        </div>
+        <a class="btn reveal" href="https://t.me/lair_music" target="_blank" rel="noopener">Написать в Telegram</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+     <p>Созданы, чтобы вдохновлять и объединять</p>
+      <div class="footer-socials">
+        <a href="https://www.instagram.com/lxirmusic/" target="_blank" rel="noopener"><i class="ri-instagram-line"></i></a>
+        <a href="https://www.youtube.com/@lairworldmusic" target="_blank" rel="noopener"><i class="ri-youtube-line"></i></a>
+        <a href="https://t.me/lair_music" target="_blank" rel="noopener"><i class="ri-telegram-line"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/particles.js"></script>
+</body>
+</html>
